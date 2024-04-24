@@ -3,8 +3,6 @@ const functions = require('firebase-functions');
 const express = require('express');
 const cors = require('cors');
 const stripe = require('stripe')(
-  'sk_test_51Hf9EsIjq2KMm1vIwHxBCcrT7rc5AMicZHLl8s4q1we1dGNde0SK33YEemcnxBq6U2NDpcQc31VT5paYaJhZf5dl0080cIzJmc'
-);
 
 // - App config
 const app = express();
